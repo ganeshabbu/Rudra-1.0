@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.solidbackgrounds.com/images/1920x1080/1920x1080-black-solid-color-background.jpg');
+    background-position: center; /* Align the background image to the center */
+    background-size: cover; /* Scale the background image to cover the entire page */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+    background-image: url("https://camo.githubusercontent.com/8c27eba046905d35cb8b0ea92280c411d75917106e67872265603d7dc42799dc/68747470733a2f2f66696c65732e6769747465722e696d2f434f53532d4a61727669732f636f6d6d756e6974792f65754f312f74756d626c725f6e72716d333279483357317236786d35636f315f313238302e676966");
+    color: #ccc;
+    padding: 160px;
+    place-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+
+    /* Center the background image */
+    background-position: center; /* Align the background image to the center */
+    background-size: center; /* Scale the background image to cover the entire container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+.input-group,.input-group1 {
+    position: absolute; /* Position the input group absolutely */
+    top: 20px; /* Distance from the top of the container */
+    right: 40px; /* Distance from the right of the container */
+    padding: 20px; /* Add padding to increase size */
+    border-width: 1px; /* Set the border width */
+    border-style: solid; /* Ensure the border is visible */
+    border-color:transparent; /* Set the border color */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Set width to 100% of the container */
+    max-width: 500px; /* Optional: Set a maximum width */
+    height: 260px; /* Allow height to adjust based on content */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.output {
+    height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+input[type="text"]{
+    width: calc(100% - 22px);
+    padding: 10px;
+    width: 495px;
+    height: 400px;
+    color: white;
+    border-color: #ccc;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color:white;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:white;
+}
+userInput{
+   padding:100px;
+}
+.folder-container {
+    display: block flex;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 5px;
+}
+.folder {
+    background-color:transparent;
+    border: 1px transparent;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.folder:hover {
+    transform: scale(1.05);
+}
+.folder img {
+    width: 20px;
+    height: 20px;
+}
+
+.folder-name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.h1 {
+    text-align: center;
+}
+.container1
+{
+    position: absolute; /* Position the input group absolutely */
+    bottom: 20px; /* Distance from the top of the container */
+    right: 40px; /* Distance from the right of the container */
+    padding: 20px; /* Add padding to increase size */
+    border-width: 1px; /* Set the border width */
+    border-style: solid; /* Ensure the border is visible */
+    border-color:white; /* Set the border color */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Set width to 100% of the container */
+    max-width: 500px; /* Optional: Set a maximum width */
+    height: 260px; /* Allow height to adjust based on content */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align items to the start */
+    font-family: Arial, sans-serif;
+    color: #ccc;
+    background-color:transparent;
+    padding: 10px;
+}
+.features {
+    position: absolute; /* Position the input group absolutely */
+    bottom: 20px; /* Distance from the top of the container */
+    left: 40px; /* Distance from the right of the container */
+    padding: 20px; /* Add padding to increase size */
+    border-width: 1px; /* Set the border width */
+    border-style: solid; /* Ensure the border is visible */
+    border-color:white; /* Set the border color */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Set width to 100% of the container */
+    max-width: 500px; /* Optional: Set a maximum width */
+    height: 100px; /* Allow height to adjust based on content */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align items to the start */
+    font-family: Arial, sans-serif;
+    color: #ccc;
+    background-color:transparent;
+    padding: 10px;
+    width: calc(100% - 22px);
+    padding: 10px;
+    width: 495px;
+    height: 400px;
+    color: white;
+    border-color: #ccc;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.datetime {
+    position: absolute; /* Position the input group absolutely */
+    top: 20px; /* Distance from the top of the container */
+    left: 40px; /* Distance from the right of the container */
+    padding: 20px; /* Add padding to increase size */
+    border-width: 1px; /* Set the border width */
+    border-style: solid; /* Ensure the border is visible */
+    border-color:white; /* Set the border color */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Set width to 100% of the container */
+    max-width: 500px; /* Optional: Set a maximum width */
+    height: 100px; /* Allow height to adjust based on content */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align items to the start */
+    font-family: Arial, sans-serif;
+    background-color:transparent;
+    padding: 10px;
+    width: calc(100% - 22px);
+    padding: 10px;
+    width: 495px;
+    height: 200px;
+    color: transparent;
+    border-color: #ccc;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color:transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white; /* Bootstrap primary color */
+}
